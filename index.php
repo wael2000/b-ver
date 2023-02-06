@@ -3,7 +3,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
 header("Pragma: no-cache"); // HTTP 1.0.
 header("Expires: 0"); // Proxies.
 ?>
-<H1>Version B</H1>
+<H1>Version B ver 1.1 </H1>
 <img alt="b-ver" src="b-abtesting.png">
 <div>
 <?php
@@ -11,11 +11,11 @@ header("Expires: 0"); // Proxies.
 ?>
 </div>
 
-<?
+<?php
 echo("<p>Search results for query: " .
     $_GET['query'] . ".</p>");
 ?>
-<?
+<?php
 echo("<p>Search results for query: " .
     htmlspecialchars($_GET['query']) . ".</p>");
 ?>
