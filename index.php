@@ -3,7 +3,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
 header("Pragma: no-cache"); // HTTP 1.0.
 header("Expires: 0"); // Proxies.
 ?>
-<H1>Version B ver 1.2 </H1>
+<H1>Version B ver 1.3 </H1>
 <img alt="b-ver" src="b-abtesting.png">
 <div>
 <?php
